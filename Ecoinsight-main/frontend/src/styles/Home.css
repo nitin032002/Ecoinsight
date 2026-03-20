@@ -1,0 +1,33 @@
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.outline-btn {
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  border: 2px solid #2e8b57;
+  color: #2e8b57;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.outline-btn:hover {
+  background: #2e8b57;
+  color: white;
+}
+
+.greeting-text {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
